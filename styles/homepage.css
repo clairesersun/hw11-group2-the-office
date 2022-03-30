@@ -127,7 +127,7 @@
 .videosection__video {
   margin: 10%;
   width: 80vw;
-  height: auto;
+  height: 60vw;
 }
 
 .aboutgroupsection {
@@ -318,6 +318,10 @@
 
   .videosection {
     margin-top: 10%;
+  }
+
+  .videosection__video {
+    height: 70vh;
   }
 
   .aboutgroupsection {
