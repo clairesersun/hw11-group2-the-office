@@ -103,7 +103,6 @@
 
 .section1__link {
   text-decoration: none;
-  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -220,7 +219,8 @@
 
 .characters {
   height: min-content;
-  width: auto;
+  background-color: var(--tan);
+  width: 100vw;
 }
 
 .characters__img {
@@ -275,6 +275,7 @@
   .section1 {
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 0;
   }
 
   .section1__img {
@@ -285,16 +286,38 @@
 
   .section1__img__blue {
     width: 100vw;
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding-top: 4%;
+    padding-bottom: 5%;
     border-radius: 0;
   }
 
   .section1__img__red {
     width: 100vw;
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding-top: 4%;
+    padding-bottom: 17%;
     border-radius: 0;
+    margin-top: 8.5%;
+  }
+
+  .section1__link {
+    margin-top: -12%;
+  }
+
+  .section1__button__blue {
+    margin-left: 40vw;
+  }
+
+  .section1__button__red {
+    margin-right: 40vw;
+    margin-top: -16%;
+  }
+
+  .section1__button {
+    font-size: 3em;
+  }
+
+  .videosection {
+    margin-top: 10%;
   }
 
   .aboutgroupsection {
@@ -331,5 +354,6 @@
 
   .favcharsection__button {
     margin-left: 3%;
+    font-size: 3em;
   }
 }
