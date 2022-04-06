@@ -1,3 +1,24 @@
+:root {
+  --primary-color: #1087ba;
+  --text-color: #140a0b;
+  --secondary-color: #e89d31;
+  --white: #fff;
+  --pink: #e6b3d4;
+  --gray: #adadba;
+  --tan: #ac9870;
+  --red: #e5101a;
+  --main-font: "Roboto Mono", monospace;
+  --second-font: "Quasimoda", sans-serif;
+}
+
+@font-face {
+  font-family: "Quasimoda";
+  src: url(/styles/Quasimoda-Font/quasimoda_medium-webfont.woff) format("woff"),
+    url(/styles/Quasimoda-Font/quasimoda_medium-webfont.woff2) format("woff2"),
+    url(/styles/Quasimoda-Font/quasimoda-light.otf) format("opentype"),
+    url(/styles/Quasimoda-Medium.ttf) format("ttf");
+}
+
 .body {
   margin: 0;
   border: 0;
