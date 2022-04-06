@@ -6,8 +6,8 @@ Members: Daniela Costa, James M Coyle, Herminio Mirabel Droz, and Claire Sersun
 
 ## Challenges
 
-- Challenge one
-- Challenge two
+1. Claire struggled to link style sheet and images to homepage html.
+2. Claire was not sure where to put homepage. After doing some research and trial and error, she ended up creating it as an index.html and placing it outside of the pagges folder.
 
 ## Style Guide
 
