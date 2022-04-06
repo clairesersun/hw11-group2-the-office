@@ -28,4 +28,12 @@
   align-items: center;
   justify-content: center;
   background-color: var(--secondary-color);
+  } 
+
+.content_image{
+  float: left;
+  width: 450px;
+  height: auto;
+  margin-right: 24px;
+  margin-bottom: 6px;
   }
