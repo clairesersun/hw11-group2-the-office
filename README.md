@@ -6,6 +6,11 @@
 
 Members: Daniela Costa, James M Coyle, Herminio Mirabel Droz, and Claire Sersun
 
+## Challenges
+
+- Challenge one
+- Challenge two
+
 ## Style Guide
 
 ![Image of Group's Style Guide inlcuding onts, colors, buttons, logos, and images](./assets/THE-OFFICE-STYLEGUIDE.png)
@@ -23,8 +28,3 @@ Members: Daniela Costa, James M Coyle, Herminio Mirabel Droz, and Claire Sersun
 ![Image of Group's Style Guide inlcuding onts, colors, buttons, logos, and images](./assets/Wireframes%2BMockups/iPhone%2013%2C%2012%20Pro%20%E2%80%93%203.png)
 ![Image of Group's Style Guide inlcuding onts, colors, buttons, logos, and images](./assets/Wireframes%2BMockups/iPad%20%E2%80%93%203.png)
 ![Image of Group's Style Guide inlcuding onts, colors, buttons, logos, and images](./assets/Wireframes%2BMockups/Web%201280%20%E2%80%93%202.png)
-
-## Challenges
-
-- Challenge one
-- Challenge two
