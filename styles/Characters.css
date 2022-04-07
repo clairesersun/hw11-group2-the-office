@@ -21,21 +21,30 @@
 
   .body {
   margin: 0;
+  padding: 0;
+  border: 0;
   font-size: 1.3rem;
   color: var(--text-color);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
   background-color: var(--secondary-color);
+  width: 100vw;
 }
 
-.main_heading {
-  font-size: 2.5rem;
-  text-align: center;
-  font-family: var(--main-font);
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  width: 100vw;
 }
 
-.heading {
+.article_heading {
   text-align: center;
   font-family: var(--second-font);
 }
@@ -53,6 +62,7 @@
 .header {
   background-color: var(--primary-color);
   padding: 20px 0;
+  width: 100vw;
   border-bottom: var(--tan) 6px solid;
 }
 
@@ -61,14 +71,12 @@
   color: var(--white);
 }
 
-.box-sizing {
-  max-width: 1200px;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
 
 .nav {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100vw;
 }
 
 .link_header:not(:first-of-type) {
@@ -77,6 +85,7 @@
 
 .hero {
   height: 450px;
+  width: 100vw;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -84,6 +93,7 @@
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+  font-family: var(--main-font);
   background-image: url(../pictures/Office\ Character.jpg);
 }
 
@@ -96,14 +106,9 @@
   margin: 0;
 }
 
-.article {
-  padding: 28px 76px;
-}
-
 .article_image {
   margin: 10px auto;
-  display: flex;
-  width: 860px;
+  width: 70%;
 }
 
 
@@ -111,11 +116,19 @@
   margin-top: auto;
   background-color: var(--primary-color);
   text-align: center;
+  width: 100vw;
   padding: 24px 0;
   color: var(--white);
   font-family: var(--second-font);
 }
 
+@media screen and (max-width: 1083px) {
+  .article_image {
+    width: 90%;
+  }  
+}
+
+/*
 @media screen and (max-width: 966px) {
   .article_image {
     max-width: 550px;
@@ -148,10 +161,6 @@
     font-size: 17px;
   }
 
-  main > article {
-    padding: 10px;
-    margin-bottom: 10px;
-  }
 
   .title {
     font-size: 30px;
