@@ -104,7 +104,7 @@
     box-shadow: 4px 4px 6px var(--red);
     background-color: var(--white);
   }
-  
+
   .hero {
     height: 450px;
     background-size: cover;
@@ -118,7 +118,7 @@
   }
   
   .title {
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 700;
     text-shadow: var(--white) 0px 0px 10px, var(--white) 0px 0px 20px,
       var(--gray) 2px 2px 2px;
@@ -135,12 +135,12 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .article_image {
     margin: 10px auto;
     display: flex;
   }
-  
+
   .article_content {
     line-height: 1.65;
     margin-bottom: 48px;
@@ -207,12 +207,13 @@
     }
   }
   
-  @media screen and (max-width: 1069px) {
-    .article_image_link {
-      max-width: 150px;
-      float: none;
-      margin: 0 auto;
-      display: block;
-    }
+ @media screen and (max-width: 1069px) {
+  .article_image_link {
+    max-width: 150px;
+    float: none;
+    margin: 0 auto;
+    display: block;
   }
+}
+
   
