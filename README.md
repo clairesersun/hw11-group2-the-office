@@ -7,8 +7,10 @@ Members: Daniela Costa, James M Coyle, and Claire Sersun
 ## Challenges
 
 1. Claire struggled to link style sheet and images to homepage html.
-2. Claire was not sure where to put homepage. After doing some research and trial and error, she ended up creating it as an index.html and placing it outside of the pagges folder.
+2. Claire was not sure where to put homepage. After doing some research and trial and error, she ended up creating it as an index.html and placing it outside of the pages folder.
 3. Daniela had challenges in linking the other html pages to the header.
+4. James had difficulty git fetching the characters page to his machine.
+5. James had difficulty wrapping text around an image for when viewing page on mobile.
 
 ## Style Guide
 
