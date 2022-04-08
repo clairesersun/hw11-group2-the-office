@@ -48,7 +48,13 @@
   
   .link:hover {
     color: var(--secondary-color);
+    transition: all 0.6s ease-out;
   }
+
+.link:hover,
+.link:focus{
+  background-color: var(--red);
+}
   
   /* header link animations! */
   .link {
